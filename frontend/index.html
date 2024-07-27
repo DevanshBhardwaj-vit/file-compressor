@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Compression</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="container">
+    <h1><i class="fas fa-compress-arrows-alt"></i> Compress Your Files</h1>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" id="fileInput" name="files" multiple>
+      <label for="fileInput">
+        <i class="fas fa-upload"></i> Choose Files
+      </label>
+      <button type="submit"><i class="fas fa-compress"></i> Upload & Compress</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="scripts.js"></script>
+  <script src="particles-config.js"></script>
+</body>
+</html>
