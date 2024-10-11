@@ -1,9 +1,9 @@
-## File Compression
+# File Compression
 
 The aim of the project is to Compress the file that the user upload.</br>
-# Tech Stack</br>
-1.NodeJS//
-2.ParticleJS//
+## Tech Stack</br>
+1.NodeJS</br>
+2.ParticleJS</br>
 
 We have achieved an Compression Ratio of 2:1 and the user can easily download the ZIP file.
 
